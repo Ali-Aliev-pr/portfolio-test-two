@@ -1,0 +1,59 @@
+@media (max-width: 1200px) {
+  .nav__list {
+    gap: 24px;
+  }
+
+  .products-card__title {
+    font-size: 24px;
+  }
+
+  /* .footer__col--flex { */
+    /* gap: 0; */
+  /* } */
+}
+
+@media (max-width: 1024px) {
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .header__bottom {
+    display: none;
+  }
+
+  .hero__title {
+    font-size: 48px;
+  }
+
+  .hero__description {
+    grid-column: 6 span;
+    padding-top: 16px;
+  }
+
+  .products-card {
+    min-height: 360px;
+  }
+
+  .present {
+    display: none;
+  }
+
+  .news-card {
+    min-height: 440px;
+  }
+
+  .news {
+    padding-top: 80px;
+  }
+
+  /* .footer__col {
+    grid-column: 6 span;
+  } */
+}
+
+@media (max-width: 768px) {
+  .header__contacts {
+    display: none;
+  }
+}
